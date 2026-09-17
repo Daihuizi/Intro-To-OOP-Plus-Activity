@@ -1,6 +1,6 @@
 # Coworking Agreement
 
-Talk through each section with your partner. Add notes on what you discussed and agreed upon in each section. At the bottom, type your names to sign off on your agreement.
+Talk through each section with your team. Add notes on what you discussed and agreed upon in each section. At the bottom, type your names to sign off on your agreement.
 
 ## Accessibility Needs
 *What does each team member need access to in order to succeed and show up the best they can?*
@@ -21,5 +21,8 @@ Talk through each section with your partner. Add notes on what you discussed and
 *Other co-working agreements that were not captured in the above sections.*
 
 ## Signatures
-______________ _______________
+_______________
+_______________
+_______________
+_______________
 Date: _________
