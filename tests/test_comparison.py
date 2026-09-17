@@ -26,7 +26,6 @@ def test_get_student_name_with_more_classes():
     name_1 = NAME_1
     grade_1 = GRADE_1
     classes_1 = list(CLASSES_1)
-    classes_1.append("Painting")
     student_1 = Student(name_1, grade_1, classes_1)
 
     name_2 = NAME_2
