@@ -55,3 +55,21 @@ def test_gets_expected_summary():
     result = student.summary()
 
     assert result == "Samara is a junior enrolled in 6 classes"
+
+
+# Edge case: student starts with no classes
+def test_get_num_classes_when_empty():
+    student = Student("Samara", "junior", [])
+
+    result = student.get_num_classes()
+
+    assert result == 0
+
+# Edge case: add a class to an empty class list
+def test_add_class_to_empty_classes():
+    student = Student("Samara", "junior", [])
+
+    result = student.add_class("Painting")
+
+    assert student.classes == ["Painting"]
+    assert result == ["Painting"]    

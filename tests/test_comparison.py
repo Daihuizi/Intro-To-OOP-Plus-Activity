@@ -36,3 +36,13 @@ def test_get_student_name_with_more_classes():
     result = get_student_with_more_classes(student_1, student_2)
 
     assert result == "Samara"
+
+
+# one has empty class 
+def test_get_student_with_more_classes_when_one_has_no_classes():
+    student_1 = Student("Samara", "junior", [])
+    student_2 = Student("Claire", "freshman", ["Math"])
+
+    result = get_student_with_more_classes(student_1, student_2)
+
+    assert result == "Claire"
